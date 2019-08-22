@@ -1,4 +1,4 @@
-"#number of symbols" 
+﻿"#number of characters" 
 --------------------
 
-Программа для подсчёта символов в заране скопированном в буфер обмена тексте.
+This pscript is for the count of characters'number in the text that has been coppied to a clipboard previously.

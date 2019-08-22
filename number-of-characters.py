@@ -1,0 +1,13 @@
+﻿import pyperclip
+print('Verify that You заранее have copied the text to a clipboard previously.')
+print('------------------------------------------')
+s=pyperclip.paste()
+s=s.replace('\n','')
+s=s.replace('\r','')
+n1=len(s)
+s=s.replace(' ','')
+n2=len(s)
+print('Number of characters with whitespaces: '+str(n1))
+print('Number of characters without whitespaces: '+str(n2))
+print('------------------------------------------')
+print(pyperclip.paste())
